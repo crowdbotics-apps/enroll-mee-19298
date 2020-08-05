@@ -61,7 +61,7 @@ export class _Blank extends React.Component {
       }}
     >
       <Input
-        placeholder="Sample text input placeholder"
+        placeholder="Name"
         editable={true}
         textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
         style={{
@@ -116,11 +116,7 @@ export class _Blank extends React.Component {
           fontFamily: "Roboto-Regular",
           borderColor: "#000000",
           borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
+          borderWidth: 1,
           borderRadius: 0,
           textDecorationLine: "none",
           textTransform: "none",
@@ -128,7 +124,7 @@ export class _Blank extends React.Component {
           letterSpacing: 0
         }}
       >
-        Sample text content
+        Vendor Name
       </Text>
     </View>
   )
